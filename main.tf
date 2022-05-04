@@ -3,6 +3,7 @@ resource "random_string" "password" {
   special = false
 }
 
+
 data "azurerm_resource_group" "test" {
   name = "${var.resource_group_name}"
 }

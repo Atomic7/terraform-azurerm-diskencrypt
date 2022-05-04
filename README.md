@@ -15,6 +15,7 @@ All the prerequsites can be found at the [Azure Disk Encryption prerequisites](h
 ## Usage
 
 
+
 ```hcl
 
 module "diskencrypt" {
